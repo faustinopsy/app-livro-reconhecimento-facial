@@ -46,3 +46,11 @@ Para fins didáticos, o roteamento do back-end foi simplificado. Em um cenário 
 ### Script do Banco de Dados
 
 O script para criação do banco de dados está localizado em `backend/app/database`. Importe este script para o seu servidor MySQL para criar as tabelas necessárias para a aplicação.
+
+### Executar
+Tenha certeza que o PHP está instalado corretamente no sistema operacional e apontado corretamente nas variáveis de ambiente, e o banco MySQL esteja instalado e com as tabelas e banco criados.
+na pasta do projeto na raiz execute o comando:
+```
+php -S localhost:8080
+
+```
